@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+
+/* --------------- logo --------------- */
+.logo  {
+    background: url("../images/logo.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: fill;
+    min-height: 30px;
+    float: left;
+    margin: 0;
+}
+
+.menu {
+    float: left;
+    margin: 0px;
+    padding-top: 10px;
+}
