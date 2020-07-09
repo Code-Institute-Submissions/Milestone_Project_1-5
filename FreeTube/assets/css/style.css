@@ -1,27 +1,45 @@
 body {
   margin: 0;
+  background: linear-gradient(180deg, #fffbe6 0%, rgba(255, 255, 255, 0) 100%),
+    #fffbe6;
 }
 
 /* --------------- Menu --------------- */
+.menu {
+  margin-top: 20px;
+  background-attachment: fixed;
+  border-bottom: 1.2px solid gray;
+}
+
+.menu a {
+    color: #1FB437;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color:red;
+}
+
 .logo {
   background: url("../images/logo.png");
   background-position: left;
   background-repeat: no-repeat;
   background-size: fill;
   min-height: 55px;
-}
-
-.container,
-.row {
-  margin-left: 0;
-}
-
-.menu {
-  padding-top: 10px;
+  margin-top: -8px;
+  margin-left: 3%;
 }
 
 .change_theme {
   float: right;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  margin-top: -8px;
+  margin-right: 4%;
+}
+#theme_change  {
+     color: darkgray !important;
+}
+#theme_change :hover {
+     color: orange !important;
 }
 /* --------------- Menu --------------- */
