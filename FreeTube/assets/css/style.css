@@ -36,3 +36,39 @@ body {
 }
 
 /* --------------- Menu --------------- */
+
+
+/* --------------- Welcome message and movies--------------- */
+
+.container-fluid {
+  margin: 0;
+}
+.hero-image {
+  width: 100%;
+  height: 90%;
+  background-color: blue;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+}
+
+.welcoming-message {
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+/* --------------- Welcome message and movies--------------- */
+
+
+/* --------------- footer --------------- */
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
+/* --------------- footer --------------- */
