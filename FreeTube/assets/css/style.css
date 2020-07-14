@@ -6,7 +6,6 @@ body {
 /* --------------- Menu --------------- */
 .menu {
   margin-top: 20px;
-  background-attachment: fixed;
   border-bottom: 1.2px solid gray;
 }
 
@@ -19,36 +18,79 @@ body {
   color: red;
 }
 
-.menu .item_list a {
+.menu li {
+  list-style-type: none;
   float: right;
+}
+.menu .item_list a {
+  font-size: 120%;
   letter-spacing: 2px;
-  padding: 0px 8px 10px 12px;
+  padding: 0px 8px 10px 30px;
+  margin-right: 10px;
 }
 
 .logo {
   background: url("../images/logo.png");
-  background-position: left;
   background-repeat: no-repeat;
   background-size: fill;
   min-height: 55px;
   margin-top: -8px;
-  margin-left: 3%;
+  margin-left: 20px;
 }
 
 /* --------------- Menu --------------- */
 
-/* --------------- Welcome message and movies--------------- */
+/* --------------- Highlight--------------- */
+.container-fluid a {
+  opacity: 80%;
+}
+
+.container-fluid a:hover {
+  opacity: 95% !important;
+}
+
+section {
+  min-height: 650px;
+  margin-top: 25px;
+}
 .highlight {
-  width: 70%;
-  max-height: 500px;
-  overflow: hidden;
+  width: 65%;
+  min-height: 650px;
+  background: url("../images/priest.png") no-repeat;
+  background-color: lightgray;
+  background-size: 100% 100%;
+  float: left;
+  margin-left: 20px;
 }
 
-.movies-highlight{
-    object-fit: contain;
+.highlight-side-1,
+.highlight-side-2,
+.highlight-side-3 {
+  width: 30%;
+  min-height: 200px;
+  float: right;
+  margin-right: 20px;
 }
 
-/* --------------- Welcome message and movies--------------- */
+.highlight-side-1 {
+  background: url("../images/spiderman_3.png") no-repeat;
+  background-color: lightgray;
+  background-size: 100% 100%;
+}
+.highlight-side-2 {
+  background: url("../images/the_dark_knight.jpg") no-repeat;
+  background-color: lightgray;
+  background-size: 100% 100%;
+  margin-top: 25px;
+}
+.highlight-side-3 {
+  background: url("../images/world_of_Z.png") no-repeat;
+  background-color: lightgray;
+  background-size: 100% 100%;
+  margin-top: 25px;
+}
+
+/* --------------- Highlight--------------- */
 
 /* --------------- footer --------------- */
 .footer {
