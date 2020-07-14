@@ -1,12 +1,20 @@
 body {
   margin: 0;
-  background: whitesmoke;
+  background: rgb(220, 220, 220);
 }
 
+h2{
+    border-bottom: 2px solid grey;
+}
 /* --------------- Menu --------------- */
 .menu {
-  margin-top: 20px;
   border-bottom: 1.2px solid gray;
+  top: 0;
+  left: 0;
+  background-color: rgb(240, 240, 240);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .menu a {
@@ -19,11 +27,12 @@ body {
 }
 
 .menu li {
+  margin-top: 15px;
   list-style-type: none;
   float: right;
 }
 .menu .item_list a {
-  font-size: 120%;
+  font-size: 110%;
   letter-spacing: 2px;
   padding: 0px 8px 10px 30px;
   margin-right: 10px;
@@ -33,26 +42,30 @@ body {
   background: url("../images/logo.png");
   background-repeat: no-repeat;
   background-size: fill;
-  min-height: 55px;
-  margin-top: -8px;
+  min-height: 50px;
+  margin-top: 10px;
   margin-left: 20px;
 }
 
 /* --------------- Menu --------------- */
 
 /* --------------- Highlight--------------- */
+section {
+  margin-top: 100px;
+  margin-left: 20px;
+  min-height: 90vh;
+  margin-right: 20px;
+  margin: 100px 20px 0px 20px;
+}
+
 .container-fluid a {
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .container-fluid a:hover {
-  opacity: 95% !important;
+  opacity: 100% !important;
 }
 
-section {
-  min-height: 650px;
-  margin-top: 25px;
-}
 .highlight {
   width: 65%;
   min-height: 650px;
@@ -60,7 +73,6 @@ section {
   background-color: lightgray;
   background-size: 100% 100%;
   float: left;
-  margin-left: 20px;
 }
 
 .highlight-side-1,
@@ -69,7 +81,6 @@ section {
   width: 30%;
   min-height: 200px;
   float: right;
-  margin-right: 20px;
 }
 
 .highlight-side-1 {
@@ -92,12 +103,37 @@ section {
 
 /* --------------- Highlight--------------- */
 
+/* --------------- Movies--------------- */
+img {
+  width: 75%;
+  height: 55vh;
+  left: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.movies-items h5,
+.movies-items p {
+    text-align: center;
+}
+
+.movies-items .col-4 {
+  min-height: 60vh;
+  padding-bottom: 40px;
+
+}
+/* --------------- Movies--------------- */
+
 /* --------------- footer --------------- */
+
 .footer {
   width: 100%;
   background: black;
   color: white;
-  padding-top: 100px;
+  padding-top: 30px;
+  float: left;
 }
 
 .footer span,
