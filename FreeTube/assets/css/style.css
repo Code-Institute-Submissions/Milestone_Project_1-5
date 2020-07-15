@@ -50,15 +50,20 @@ h2 {
 /* --------------- Menu --------------- */
 
 /* --------------- Highlight--------------- */
+.container {
+  display: grid;
+}
 section {
   min-height: 90vh;
-  padding-top: 55px;
+  padding-top: 65px;
   background-color: white;
+
+  position: relative;
 }
 
 .s-highlight {
   margin: 25px 30px 75px 30px !important;
-  padding-top: 75px!important;
+  padding-top: 75px !important;
   background-color: inherit;
 }
 
@@ -99,7 +104,7 @@ section {
   margin-top: 25px;
 }
 .highlight-side-3 {
-  background: url("../images/world_of_Z.png") no-repeat;
+  background: url("../images/world_war_Z.png") no-repeat;
   background-color: lightgray;
   background-size: 100% 100%;
   margin-top: 25px;
@@ -108,24 +113,24 @@ section {
 /* --------------- Highlight--------------- */
 
 /* --------------- Movies--------------- */
-.figure img {
-  width: 55%;
-  height: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  left: 10%;
-  border: 1px solid black;
-}
-
-.movies-items h5,
-.movies-items p {
+.movies-items .col-4 {
   text-align: center;
 }
 
-.movies-items .col-4 {
-  min-height: 60vh;
-  padding-bottom: 40px;
+.figure img {
+  width: 200px;
+  height: 250px;
+  display: block;
+}
+
+.figure:hover img {
+  background-color: black;
+  opacity: 70%;
+  border: 3px solid green;
+}
+.movies-items h5,
+.movies-items p {
+  text-align: center;
 }
 
 .figure h5 {
@@ -146,22 +151,23 @@ section {
 }
 
 /*-- Poster --*/
-.movies-items .poster {
-  position: absolute;
+.figure .poster {
+  position: absolute; /*-- take value from div col-4 --*/
+  width: 200px;
+  height: 250px;
   top: 0;
-  left: 33%;
-  margin-left: -1.5em;
+}
+.poster ul {
+  padding: 0;
 }
 .poster li {
   list-style-type: none;
   color: whitesmoke;
 }
 .poster a {
-  margin-top: 10px;
-  text-align: center;
   opacity: 0%;
   text-decoration: none;
-  transition: 1s ease;
+  transition: 0.5s ease;
 }
 .poster a:hover {
   opacity: 100%;
@@ -169,7 +175,8 @@ section {
 .poster-views,
 .poster-likes {
   font-size: 3em;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .poster-views {
