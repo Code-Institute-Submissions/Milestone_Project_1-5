@@ -52,33 +52,33 @@ h2 {
 /* --------------- Highlight--------------- */
 .container {
   display: grid;
+  padding-top: 2vh;
 }
 section {
   min-height: 90vh;
   padding-top: 65px;
   background-color: white;
-
   position: relative;
 }
 
 .s-highlight {
-  margin: 25px 30px 75px 30px !important;
-  padding-top: 75px !important;
+  margin:0 !important;
   background-color: inherit;
 }
 
-.container-fluid a {
+.container-fluid a div {
   opacity: 90%;
 }
 
-.container-fluid a:hover {
+.container-fluid a div:hover {
   opacity: 100% !important;
+  border: 2px solid green;
 }
 
 .highlight {
-  width: 65%;
-  min-height: 650px;
-  background: url("../images/priest.png") no-repeat;
+  width: 70%;
+  min-height: 90vh;
+  background: url("../images/world_war_Z.png") no-repeat;
   background-color: lightgray;
   background-size: 100% 100%;
   float: left;
@@ -87,8 +87,8 @@ section {
 .highlight-side-1,
 .highlight-side-2,
 .highlight-side-3 {
-  width: 30%;
-  min-height: 200px;
+  width: 28%;
+  min-height: 28vh;
   float: right;
 }
 
@@ -101,13 +101,13 @@ section {
   background: url("../images/the_dark_knight.jpg") no-repeat;
   background-color: lightgray;
   background-size: 100% 100%;
-  margin-top: 25px;
+  margin-top: 3vh;
 }
 .highlight-side-3 {
-  background: url("../images/world_war_Z.png") no-repeat;
+  background: url("../images/civil_war.jpg") no-repeat;
   background-color: lightgray;
   background-size: 100% 100%;
-  margin-top: 25px;
+  margin-top: 3vh;
 }
 
 /* --------------- Highlight--------------- */
@@ -116,11 +116,13 @@ section {
 .movies-items .col-4 {
   text-align: center;
 }
+.figure{
+    max-width: 200px;
+}
 
 .figure img {
   width: 200px;
   height: 250px;
-  display: block;
 }
 
 .figure:hover img {
@@ -153,12 +155,12 @@ section {
 /*-- Poster --*/
 .figure .poster {
   position: absolute; /*-- take value from div col-4 --*/
-  width: 200px;
+  width: 200px ;
   height: 250px;
   top: 0;
 }
 .poster ul {
-  padding: 0;
+  padding: 0 !important;
 }
 .poster li {
   list-style-type: none;
