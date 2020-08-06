@@ -1,123 +1,37 @@
 body {
   margin: 0;
-  background: rgb(154, 171, 188);
+  background: black;
 }
 
 h2 {
   border-bottom: 2px solid grey;
 }
 /* --------------- Menu --------------- */
-.menu {
-  border-bottom: 1.2px solid gray;
-  top: 0;
-  left: 0;
-  background-color: rgb(240, 240, 240);
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
-
-.menu a {
-  color: black;
-  text-decoration: none;
-}
-
-.menu a:hover {
-  color: red;
-}
-
-.menu li {
-  margin-top: 15px;
-  list-style-type: none;
-  float: right;
-}
-.menu .item_list a {
-  font-size: 110%;
-  letter-spacing: 2px;
-  padding: 0px 8px 10px 30px;
-  margin-right: 10px;
-}
-
 .logo {
   background: url("../images/logo.png");
   background-repeat: no-repeat;
-  background-size: fill;
+  min-width: 150px;
   min-height: 50px;
-  margin-top: 10px;
-  margin-left: 20px;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
 /* --------------- Menu --------------- */
 
 /* --------------- Highlight--------------- */
-.container {
-  display: grid;
-  padding-top: 2vh;
+.highlight img {
+    min-height: 90vh;
 }
-section {
-  min-height: 90vh;
-  padding-top: 65px;
-  background-color: white;
-  position: relative;
-}
-
-.s-highlight {
-  margin:0 !important;
-  background-color: inherit;
-}
-
-.container-fluid a div {
-  opacity: 90%;
-}
-
-.container-fluid a div:hover {
-  opacity: 100% !important;
-  border: 2px solid green;
-}
-
-.highlight {
-  width: 70%;
-  min-height: 90vh;
-  background: url("../images/world_war_Z.png") no-repeat;
-  background-color: lightgray;
-  background-size: 100% 100%;
-  float: left;
-}
-
-.highlight-side-1,
-.highlight-side-2,
-.highlight-side-3 {
-  width: 28%;
-  min-height: 28vh;
-  float: right;
-}
-
-.highlight-side-1 {
-  background: url("../images/spiderman_3.png") no-repeat;
-  background-color: lightgray;
-  background-size: 100% 100%;
-}
-.highlight-side-2 {
-  background: url("../images/the_dark_knight.jpg") no-repeat;
-  background-color: lightgray;
-  background-size: 100% 100%;
-  margin-top: 3vh;
-}
-.highlight-side-3 {
-  background: url("../images/civil_war.jpg") no-repeat;
-  background-color: lightgray;
-  background-size: 100% 100%;
-  margin-top: 3vh;
-}
-
 /* --------------- Highlight--------------- */
 
 /* --------------- Movies--------------- */
 .movies-items .col-4 {
   text-align: center;
 }
-.figure{
-    max-width: 200px;
+.figure {
+  max-width: 200px;
 }
 
 .figure img {
@@ -155,7 +69,7 @@ section {
 /*-- Poster --*/
 .figure .poster {
   position: absolute; /*-- take value from div col-4 --*/
-  width: 200px ;
+  width: 200px;
   height: 250px;
   top: 0;
 }
