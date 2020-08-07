@@ -1,12 +1,11 @@
-[<img alt='FreeTube logo' src="FreeTube/assets/images/logo.png" style="margin: 0;position:relative;left:-1%;width:150px;">](#)
+[<img alt='FreeTube logo' src="assets/images/logo.png" style="margin: 0;position:relative;left:-1%;width:150px;">](#)
 
 # FreeTube
 
-Enjoy watching movies, download free movies here on FreeTube.
+Enjoy watching movies, so this website is made just for you.
 
 ## What is FreeTube?
-It's a web where the user can *download* movies for **FREE**.
-User can also make a purchase for a *VIP account* which provides a faster download *speed*.
+Freetube has an extensive library of feature films, documentaries, TV shows, anime, and more. Watch as much as you want, anytime you want for free.
 
 This show how the web look like
 [(__*View the live project here*__)](https://www.figma.com/file/CsaAOkX9YucLirUNzRyPgl/Milestone-project-1-(FreeTube)?node-id=0%3A1)
