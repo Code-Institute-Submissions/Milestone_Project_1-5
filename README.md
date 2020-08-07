@@ -1,4 +1,4 @@
-[<img alt='FreeTube logo' src="FreeTube/assets/images/logo.png" style="margin: 0;position:relative;left:-1%;width:150px;">](#)
+[<img alt='FreeTube logo' src="assets/images/logo.png" style="margin: 0;position:relative;left:-1%;width:150px;">](#)
 
 # FreeTube
 
