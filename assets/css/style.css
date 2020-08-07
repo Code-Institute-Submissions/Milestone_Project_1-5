@@ -206,7 +206,12 @@ input[type="submit"] {
   border-radius: 12px;
   cursor: pointer;
 }
-
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .contact_box {
+    width: 80%;
+  }
+}
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
   textarea {
