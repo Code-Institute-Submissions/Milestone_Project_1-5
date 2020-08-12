@@ -39,19 +39,6 @@ All links will function, clicking on the movies will open a new page which play 
 This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness it was also tested on an android based mobile device. When the webpage is visited on larger screens the carousel slide will take the whole screen This will have smaller height on a mobile such as Iphone 6/7/8 Plus. A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
 
 Each time user hover a movie, the likes and views will show up with custom CSS to get user's attention.
-## Deployment
-
-### `How to open this project`
-1. Copy this link " https://longvn99.github.io/Milestone_Project_1/ "
-1. Paste and open on a browser
-
-### `How to open this project localy`
-
-1. Open Milestone_Project_1 on Github 
-1. Download as a ZIP file
-1. Extract the folder
-1. Open FreeTube folder
-1. Run index.html file on a web browser such as Firefox or Chrome
 
 ## Strategy
 The goal in the design was to make it as easy as possible to access, short and an informative B2B based site, while striving for a minimalist and user-friendly design as possible.
@@ -72,6 +59,18 @@ The site is structured to get the right information as quickly as possible. A na
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting the link into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+### `How to open this project`
+1. Copy this link " https://longvn99.github.io/Milestone_Project_1/ "
+1. Paste and open on a browser
+
+### `How to open this project localy`
+
+1. Open Milestone_Project_1 on Github 
+1. Download as a ZIP file
+1. Extract the folder
+1. Open FreeTube folder
+1. Run index.html file on a web browser such as Firefox or Chrome
 
 ## Credits
 ### Content
