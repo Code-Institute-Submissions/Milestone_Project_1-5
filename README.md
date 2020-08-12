@@ -22,7 +22,7 @@ This show how the web look like
 ## Deployment
 
 ### `How to open this project`
-1. Copy this link "https://longvn99.github.io/Milestone_Project_1/"
+1. Copy this link " https://longvn99.github.io/Milestone_Project_1/ "
 1. Paste and open on a browser
 
 ### `How to open this project localy`
