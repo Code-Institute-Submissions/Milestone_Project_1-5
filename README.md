@@ -13,7 +13,7 @@ A live demo version can be found
 ![Design](https://github.com/LongVN99/Milestone_Project_1/blob/a496c9ed26880e43e248fb220c388ca592c679a6/Mockups/Mockups.png)
 
 ## UX
-Highlight the recommended movie to catch the user view and attention. To make the website simple for the user to choose the movie he wants easily. To give a brief information and rating about the movie provided by FreeTube.
+Highlight the recommended movie to catch the user's attention. To make the website simple for the user to choose the movie he wants easily. To give a brief information and rating about the movie provided by FreeTube.
 
 ## Features
 
