@@ -75,7 +75,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ## Credits
 ### Content
-All content on this site were written by me.
+All content on this site were written by me. All information about movies is taken from wikipedia.org.
 
 ### Media
 All photos were taken from google.
