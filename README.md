@@ -39,6 +39,6 @@ This show how the web look like
   
 
 ## Known Issues
--The opacity of posters may not work in chrome (likes and views are always visible instead of visible only when hover)
--Reponsive image on each type of device 
+*The opacity of posters may not work in chrome (likes and views are always visible instead of visible only when hover)
+*Reponsive image on each type of device 
 ## Credits
