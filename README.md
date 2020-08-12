@@ -12,12 +12,17 @@ A live demo version can be found
 [here](https://longvn99.github.io/Milestone_Project_1/)
 ![Design](https://github.com/LongVN99/Milestone_Project_1/blob/a496c9ed26880e43e248fb220c388ca592c679a6/Mockups/Mockups.png)
 
+## UX
+Highlight the recommended movie to catch the user view and attention. To make the website simple for the user to choose the movie he wants easily. To give a brief information and rating about the movie provided by FreeTube.
+
 ## Features
 
 *  Allow user to watch movies freely
 *  User can see recommended movies of the week
 *  User can watch movie's trailer by clicking on the movie
 *  User can make request for new movies by sending messages in contact
+*  User can also report bug or give his opinion by sending messages in contact
+
 
 ## Browser support
 
@@ -44,12 +49,34 @@ A live demo version can be found
 1. Open FreeTube folder
 1. Run index.html file on a web browser such as Firefox or Chrome
 
+## Strategy
+The goal in the design was to make it as easy as possible to access, short and an informative B2B based site, while striving for a minimalist and user-friendly design as possible.
 
+## Technologies
+HTML - To create a basic site
+CSS - To create a nice style and to stand-out
+Bootstrap - To improve responsiveness
+Figma - To create mockup
 
-
-  
+## Structure
+The site is structured to get the right information as quickly as possible. A navigation bar that's always available to quickly scroll between pages. Contact form at the bottom. The proper order of the pages is created to trigger the reader to contact us.
 
 ## Known Issues
 * The opacity of posters may not work in chrome (likes and views are always visible instead of visible only when hover)
-* Reponsive image on each type of device 
+
+## Deployment
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting the link into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
 ## Credits
+### Content
+All content on this site were written by me.
+
+### Media
+All photos were taken from google.
+
+### Acknowledgements
+The navbarToggler was found on bootstrap (by mentor advice)
+The carousel slide was found on bootstrap (by mentor advice)
+The README.md file follows the structure from a link given by mentor advice
