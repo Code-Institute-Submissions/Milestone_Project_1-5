@@ -114,7 +114,14 @@ body {
   }
 }
 /* --------------- Highlight--------------- */
-
+/* --------------- About--------------- */
+#about span {
+  color:orange;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:1.1rem;
+}
+/* --------------- About--------------- */
 /* --------------- Movies--------------- */
 .figure img {
   min-width: 200px;
