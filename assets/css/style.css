@@ -224,16 +224,17 @@ textarea {
   height: 200px;
 }
 
-input[type="submit"] {
+form a[type="button"] {
   background-color: #f35050;
+  text-decoration: none;
   color: white;
   padding: 15px 40px;
   border: none;
   border-radius: 12px;
   cursor: pointer;
 }
-input[type="submit"]:hover {
-  color: white;
+form a[type="button"]:hover {
+  color: black;
   animation-name: color_change;
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
