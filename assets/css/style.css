@@ -52,6 +52,12 @@ body {
   animation-fill-mode: backwards;
 }
 
+.movie_name{
+    color: white;
+    font-size: ;
+    font-family: MedievalSharp;
+}
+
 @keyframes highlight {
   from {
     transform: scale(1.05);

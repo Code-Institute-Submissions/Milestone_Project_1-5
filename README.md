@@ -12,15 +12,27 @@ This show how the web look like
 
 ## Features
 
-1. Allow user to download movies freely
-1. User can purchase a VIP account which allow to make a faster download and more movies (HD)
-1. (User can choose type of movie that one desires)
-1. (User can requests for new movies)
+1. Allow user to watch movies freely
+1. User can see recommended movies of the week
+1. User can watch movie's trailer by clicking on the movie
+1. User can make request for new movies by sending messages in contact
+
+## Browser support
+
+* Chrome *(latest 2)*
+* Edge *(latest 2)*
+* Firefox *(latest 2)*
+* Internet Explorer 11
+* Opera *(latest 2)*
+* Safari *(latest 2)*
 
 ## Testing
 
 ## Deployment
 
+### `How to open this project`
+1. Copy this link " https://longvn99.github.io/Milestone_Project_1/ "
+1. Paste and open on a browser
 
 ### `How to open this project localy`
 
@@ -31,8 +43,11 @@ This show how the web look like
 1. Run index.html file on a web browser such as Firefox or Chrome
 
 
+
+
   
 
 ## Known Issues
-
+* The opacity of posters may not work in chrome (likes and views are always visible instead of visible only when hover)
+* Reponsive image on each type of device 
 ## Credits
