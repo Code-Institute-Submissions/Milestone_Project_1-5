@@ -7,8 +7,9 @@ Enjoy watching movies, so this website is made just for you.
 ## What is FreeTube?
 Freetube has an extensive library of feature films, documentaries, TV shows, anime, and more. Watch as much as you want, anytime you want for free.
 
-This show how the web look like
-[(__*View the live project here*__)](https://www.figma.com/file/CsaAOkX9YucLirUNzRyPgl/Milestone-project-1-(FreeTube)?node-id=0%3A1)
+## Demo
+A live demo version can be found
+[(here)](https://www.figma.com/file/CsaAOkX9YucLirUNzRyPgl/Milestone-project-1-(FreeTube)?node-id=0%3A1)
 
 ## Features
 
