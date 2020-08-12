@@ -15,6 +15,16 @@ A live demo version can be found
 ## UX
 Highlight the recommended movie to catch the user's attention. To make the website simple for the user to choose the movie he wants easily. To give a brief information and rating about the movie provided by FreeTube.
 
+## User stories
+By phone-research of existing customers, we tried to find out what they need and what they think the companies strongest points are. We wanted to know what the costumers finds most important. The following points came up:
+
+As a user, I want to know about is this website. (about page)
+As a user, I want to know how much it will cost. ( about page)
+As a user, I want to know products options. (movies page)
+As a user, I want to know how I can contact. (contact page and footer)
+As a user, I want to report bugs. (contact page)
+As a user, I'm mostly busy and I want to find quick and preferable on my phone. ( responsive)
+
 ## Features
 
 *  Allow user to watch movies freely
