@@ -30,6 +30,18 @@ body {
   background-repeat: no-repeat;
   min-width: 150px;
   min-height: 50px;
+  animation-name: logo;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+  25% {
+    transform: rotateY(0deg);
+  }
+  75% {
+    transform: rotateY(90deg);
+  }
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -52,10 +64,14 @@ body {
   animation-fill-mode: backwards;
 }
 
-.movie_name{
-    color: white;
-    font-size: ;
-    font-family: MedievalSharp;
+.movie_name {
+  color: white;
+  font-size: 5rem;
+  font-family: "MedievalSharp";
+  z-index: 10;
+  position: absolute;
+  top: 80%;
+  left: 10%;
 }
 
 @keyframes highlight {
@@ -69,22 +85,32 @@ body {
 
 @media only screen and (max-width: 800px) {
   /* For tablets: */
-.highlight {
-  height: 60vh;
-}
+  .highlight {
+    height: 80vh;
+  }
 
-.highlight img{
-  height: 60vh;
+  .highlight img {
+    height: 80vh;
+  }
+  .movie_name {
+    font-size: 4rem;
+    top: 80%;
+    left: 10%;
   }
 }
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
-.highlight {
-  height: 60vh;
-}
+  .highlight {
+    height: 65vh;
+  }
 
-.highlight img{
-  height: 60vh;
+  .highlight img {
+    height: 65vh;
+  }
+  .movie_name {
+    font-size: 2.5rem;
+    top: 80%;
+    left: 10%;
   }
 }
 /* --------------- Highlight--------------- */
