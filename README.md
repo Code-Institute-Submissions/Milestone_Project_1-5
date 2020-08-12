@@ -82,5 +82,6 @@ All photos were taken from google.
 
 ### Acknowledgements
 As a user, I likes watching movies for entertainment, but it's really expensive to buy movies all the time. However, to protect intellectual property is really important in order to encourage arts creativity. It would be great if we can have a website where we can watch movies freely, so people with low salary can also enjoy the movies and at the same time, to encourage arts creativity. So to achieve these two goals, the investors and the businessman use their funds for advertisement to buy movie rights.
+
 For the web design, the navbarToggler was found on bootstrap (by mentor advice) and the carousel slide was found on bootstrap (by mentor advice).
 
