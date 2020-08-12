@@ -17,6 +17,15 @@ This show how the web look like
 1. User can watch movie's trailer by clicking on the movie
 1. User can make request for new movies by sending messages in contact
 
+## Browser support
+
+* Chrome *(latest 2)*
+* Edge *(latest 2)*
+* Firefox *(latest 2)*
+* Internet Explorer 11
+* Opera *(latest 2)*
+* Safari *(latest 2)*
+
 ## Testing
 
 ## Deployment
