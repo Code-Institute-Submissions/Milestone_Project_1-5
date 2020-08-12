@@ -34,11 +34,11 @@ Highlight the recommended movie to catch the user view and attention. To make th
 * Safari *(latest 2)*
 
 ## Testing
-All links will function, clicking on the movies will open a new page which play the trailer of the chosen movie. The "Send" button will return to the home section. Custom CCS code is written for every button comfort design.
+All links will function, clicking on the movies will open a new page which play the trailer of the chosen movie on YouTube.com. The "Send" button will return to the home section. Custom CCS code is written for every button comfort design.
 
 This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness it was also tested on an android based mobile device. When the webpage is visited on larger screens the carousel slide will take the whole screen This will take 65% height on a mobile such as Iphone 6/7/8 Plus. A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
 
-The text and card-decks will properly align on every screen size. The card-decks have some extra CSS code to improve alignment of the content within the cards. The footer will place the text beneath each other to make it better readable for smaller screens.
+Each time user hover a movie, the likes and views will show up with custom CSS to get user attention.
 ## Deployment
 
 ### `How to open this project`
