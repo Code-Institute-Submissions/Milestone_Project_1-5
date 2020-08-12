@@ -10,7 +10,7 @@ Freetube has an extensive library of feature films, documentaries, TV shows, ani
 ## Demo
 A live demo version can be found
 [here](https://longvn99.github.io/Milestone_Project_1/)
-![Design](https://github.com/D1ang/EL1TE/blob/master/mockups/responsive.png)
+![Design](https://longvn99.github.io/Milestone_Project_1//master/mockups/responsive.png)
 
 ## Features
 
