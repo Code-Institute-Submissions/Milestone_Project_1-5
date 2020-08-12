@@ -15,7 +15,7 @@ This show how the web look like
 1. Allow user to watch movies freely
 1. User can see recommended movies of the week
 1. User can watch movie's trailer by clicking on the movie
-1. User can requests for new movies by sending messages in contact
+1. User can make request for new movies by sending messages in contact
 
 ## Testing
 
