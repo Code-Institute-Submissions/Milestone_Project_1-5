@@ -14,10 +14,10 @@ A live demo version can be found
 
 ## Features
 
-1. Allow user to watch movies freely
-1. User can see recommended movies of the week
-1. User can watch movie's trailer by clicking on the movie
-1. User can make request for new movies by sending messages in contact
+*  Allow user to watch movies freely
+*  User can see recommended movies of the week
+*  User can watch movie's trailer by clicking on the movie
+*  User can make request for new movies by sending messages in contact
 
 ## Browser support
 
