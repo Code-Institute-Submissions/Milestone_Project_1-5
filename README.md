@@ -57,10 +57,10 @@ Each time user hover a movie, the likes and views will show up with custom CSS t
 The goal in the design was to make it as easy as possible to access, short and an informative B2B based site, while striving for a minimalist and user-friendly design as possible.
 
 ## Technologies
-HTML - To create a basic site
-CSS - To create a nice style and to stand-out
-Bootstrap - To improve responsiveness
-Figma - To create mockup
+* HTML - To create a basic site
+* CSS - To create a nice style and to stand-out
+* Bootstrap - To improve responsiveness
+* Figma - To create mockup
 
 ## Structure
 The site is structured to get the right information as quickly as possible. A navigation bar that's always available to quickly scroll between pages. Contact form at the bottom. The proper order of the pages is created to trigger the reader to contact us.
