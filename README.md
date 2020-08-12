@@ -82,6 +82,6 @@ All photos were taken from google.
 
 ### Acknowledgements
 As a user, I likes watching movies for entertainment, but it's really expensive to buy movies all the time and beside we are not sure if the movie suit us. I think it would be great if we can have a website where we can watch movies freely, so we can save money and we don't feel waste when a movie is not good as expected.
-The navbarToggler was found on bootstrap (by mentor advice)
-The carousel slide was found on bootstrap (by mentor advice)
+The navbarToggler was found on bootstrap (by mentor advice).
+The carousel slide was found on bootstrap (by mentor advice).
 
