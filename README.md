@@ -38,7 +38,7 @@ All links will function, clicking on the movies will open a new page which play 
 
 This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness it was also tested on an android based mobile device. When the webpage is visited on larger screens the carousel slide will take the whole screen This will take 65% height on a mobile such as Iphone 6/7/8 Plus. A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
 
-Each time user hover a movie, the likes and views will show up with custom CSS to get user attention.
+Each time user hover a movie, the likes and views will show up with custom CSS to get user's attention.
 ## Deployment
 
 ### `How to open this project`
