@@ -276,6 +276,7 @@ input[type="submit"]:hover {
 
 .social-networks {
   text-align: center;
+  margin-left: -10px;
 }
 
 .social-networks li {
@@ -293,4 +294,10 @@ input[type="submit"]:hover {
   color: white;
 }
 
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .social-networks {
+    margin-left: -20px;
+  }
+}
 /* --------------- footer --------------- */
