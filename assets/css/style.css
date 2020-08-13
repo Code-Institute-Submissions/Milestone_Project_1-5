@@ -75,27 +75,27 @@ transform : scale(1);
 }
 @media only screen and (max-width: 800px) {
 .highlight {
-height : 80vh;
+height : 65vh;
 }
 .highlight img {
-height : 80vh;
+height : 65vh;
 }
 .movie_name {
-font-size : 3rem;
+font-size : 3.5rem;
 top : 75%;
 left : 10%;
 }
 }
 @media only screen and (max-width: 500px) {
 .highlight {
-height : 65vh;
+height : 55vh;
 }
 .highlight img {
-height : 65vh;
+height : 55vh;
 }
 .movie_name {
 font-size : 2.5rem;
-top : 75%;
+top : 80%;
 left : 10%;
 }
 }
