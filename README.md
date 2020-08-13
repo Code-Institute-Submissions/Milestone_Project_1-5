@@ -13,7 +13,7 @@ A live demo version can be found
 ![Design](https://github.com/LongVN99/Milestone_Project_1/blob/a496c9ed26880e43e248fb220c388ca592c679a6/Mockups/Mockups.png)
 
 ## UX
-Highlight the recommended movie to catch the user's attention. To make the website simple for the user to choose the movie he wants easily. To give a brief information and rating about the movie provided by FreeTube.
+Highlight the recommended movie to catch the user's attention. To make the website simple for the user to choose the movie he wants easily. To give a brief information and the movie's rating provided by other users in FreeTube.
 
 ## User stories
 By phone-research of existing customers, we tried to find out what they need and what they think the companies strongest points are. We wanted to know what the costumers finds most important. The following points came up:
@@ -48,7 +48,7 @@ All links will function, clicking on the movies will open a new page which play 
 
 This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness it was also tested on an android based mobile device. When the webpage is visited on larger screens the carousel slide will take the whole screen This will have smaller height on a mobile such as Iphone 6/7/8 Plus. A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
 
-Each time user hover a movie, the likes and views will show up with custom CSS to get user's attention.
+Each time user hover a movie, the likes and views will show up with custom CSS to get user's attention about the movie's rating.
 
 ## Strategy
 The goal in the design was to make it as easy as possible to access, short and an informative B2B based site, while striving for a minimalist and user-friendly design as possible.
