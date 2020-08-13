@@ -4,10 +4,11 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=`, initial-scale=1.0" />
+	<link rel="icon" href="assets/images/fav_icon.gif" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
 	<title>FreeTube</title>
 </head>
 
@@ -26,10 +27,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-				<a class="logo" href="index.html"></a>
+				<a class="logo" href="#highlight"></a>
 				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 					<li class="nav-item active">
-						<a class="nav-link" href="index.html">
+						<a class="nav-link" href="#highlight">
 							Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
@@ -67,16 +68,16 @@
               src="assets/images/world_war_Z.jpg"
               alt="Second slide"
             />
-            <text class="movie_name">World War Z</text>
-          </a>
-						<a class="carousel-item" href="https://www.youtube.com/watch?v=MTIP-Ih_GR0&t=1ss">
-							<img
+						<text class="movie_name">World War Z</text>
+					</a>
+					<a class="carousel-item" href="https://www.youtube.com/watch?v=MTIP-Ih_GR0&t=1ss">
+						<img
               class="d-block w-100"
               src="assets/images/spiderman_3.jpg"
               alt="Third slide"
             />
-            <text class="movie_name">Spiderman 3</text>
-          </a>
+						<text class="movie_name">Spiderman 3</text>
+					</a>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -334,11 +335,12 @@
 					<label for="email">Email</label>
 					<input type="email" id="email" name="email" placeholder="Your emaill address">
 
-					<label for="subject">Subject</label>
-					<textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-
-					<a type="button" target="_blank" href="index.html">Send</a>
-                </form>
+					<label for="message">Message</label>
+					<textarea id="message" name="message" placeholder="Write something.."></textarea>
+					<br><br>
+					<a type="button" target="_self" href="index.html">Send</a>
+                    <br><br>
+				</form>
 			</div>
 		</section>
 		<!-- -----------End Contact------------- -->

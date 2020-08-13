@@ -1,311 +1,261 @@
+
 body {
-  background-color: whitesmoke;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+background-color : whitesmoke;
+margin : 0;
+font-family : "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
 }
 .section_header {
-  font-weight: bold;
-  text-align: center;
-  padding-top: 65px;
-  padding-bottom: 10px;
+font-weight : bold;
+text-align : center;
+padding-top : 65px;
+padding-bottom : 10px;
 }
 .container-fluid {
-  margin-bottom: 50px;
+margin-bottom : 50px;
 }
-/* --------------- Menu --------------- */
 .navbar {
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-  border-bottom: 1.5px solid grey;
-  opacity: 95%;
+position : fixed;
+z-index : 100;
+width : 100%;
+border-bottom : 1.5px solid grey;
+opacity : 95%;
 }
 .navbar:hover {
-  opacity: 100%;
+opacity : 100%;
 }
-
 .logo {
-  background: url("../images/logo.png");
-  background-repeat: no-repeat;
-  min-width: 150px;
-  min-height: 50px;
-  animation-name: logo;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
+background : url("../images/logo.png");
+background-repeat : no-repeat;
+min-width : 150px;
+min-height : 50px;
+animation-name : logo;
+animation-duration : 12s;
+animation-delay : 2.5s;
+animation-iteration-count : infinite;
 }
-
 @keyframes logo {
-  25% {
-    transform: rotateY(0deg);
-  }
-  75% {
-    transform: rotateY(90deg);
-  }
+25% {
+transform : rotateY(-45deg);
 }
-
+75% {
+transform : rotateY(45deg);
+}
+}
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 2rem;
-  padding-left: 0.5rem;
-  font-size: 1.1rem;
+padding-right : 2rem;
+padding-left : 0.5rem;
+font-size : 1.1rem;
 }
-/* --------------- Menu --------------- */
-
-/* --------------- Highlight--------------- */
 .highlight {
-  height: 100vh;
+height : 100vh;
 }
-
 .highlight img {
-  height: 100vh;
-  animation-name: highlight;
-  animation-duration: 4s;
-  animation-delay: 1s;
-  animation-fill-mode: backwards;
+height : 100vh;
+animation-name : highlight;
+animation-duration : 4s;
+animation-delay : 1s;
+animation-fill-mode : backwards;
 }
-
 .movie_name {
-  color: white;
-  font-size: 5rem;
-  font-family: "MedievalSharp";
-  z-index: 10;
-  position: absolute;
-  top: 75%;
-  left: 10%;
+color : white;
+font-size : 5rem;
+font-family : "MedievalSharp";
+z-index : 10;
+position : absolute;
+top : 75%;
+left : 10%;
 }
-
 @keyframes highlight {
-  from {
-    transform: scale(1.05);
-  }
-  to {
-    transform: scale(1);
-  }
+from {
+transform : scale(1.05);
 }
-
+to {
+transform : scale(1);
+}
+}
 @media only screen and (max-width: 800px) {
-  /* For tablets: */
-  .highlight {
-    height: 80vh;
-  }
-
-  .highlight img {
-    height: 80vh;
-  }
-  .movie_name {
-    font-size: 3rem;
-    top: 75%;
-    left: 10%;
-  }
+.highlight {
+height : 80vh;
+}
+.highlight img {
+height : 80vh;
+}
+.movie_name {
+font-size : 3rem;
+top : 75%;
+left : 10%;
+}
 }
 @media only screen and (max-width: 500px) {
-  /* For mobile phones: */
-  .highlight {
-    height: 65vh;
-  }
-
-  .highlight img {
-    height: 65vh;
-  }
-  .movie_name {
-    font-size: 2rem;
-    top: 75%;
-    left: 10%;
-  }
+.highlight {
+height : 65vh;
 }
-/* --------------- Highlight--------------- */
-/* --------------- About--------------- */
+.highlight img {
+height : 65vh;
+}
+.movie_name {
+font-size : 2rem;
+top : 75%;
+left : 10%;
+}
+}
+#about p {
+text-align : center;
+}
 #about span {
-  color:orange;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size:1.1rem;
+color : orange;
+text-transform : uppercase;
+font-weight : bold;
+font-size : 1.1rem;
 }
-/* --------------- About--------------- */
-/* --------------- Movies--------------- */
 .figure img {
-  min-width: 200px;
-  height: 250px;
-  border: 1px solid black;
+min-width : 200px;
+height : 250px;
+border : black solid 1px;
 }
-
 .figure:hover img {
-  background-color: black;
-  opacity: 70%;
-  border: 3px solid green;
+background-color : black;
+opacity : 70%;
+border : green solid 3px;
 }
-.movies-items h5,
-.movies-items p {
-  text-align: center;
+.movies-items h5, .movies-items p {
+text-align : center;
 }
-
 .figure h5 {
-  color: black;
+color : black;
 }
-
 .movie-description {
-  padding-left: 0px !important;
+padding-left : 0 !important ;
 }
-
 .movie-description li {
-  list-style-type: none;
-  text-align: center;
+list-style-type : none;
+text-align : center;
 }
-
 .movie-description text {
-  font-weight: bold;
+font-weight : bold;
 }
-
-/*-- Poster --*/
 .figure .poster {
-  position: absolute;
-  width: 200px;
-  height: 250px;
-  top: 0;
+position : absolute;
+width : 200px;
+height : 250px;
+top : 0;
 }
 .poster ul {
-  padding: 0 !important;
+padding : 0 !important ;
 }
 .poster li {
-  list-style-type: none;
-  color: whitesmoke;
+list-style-type : none;
+color : whitesmoke;
 }
 .poster a {
-  opacity: 0%;
-  text-decoration: none;
-  transition: 0.5s ease;
+opacity : 0%;
+text-decoration : none;
+transition : 0.5s ease;
 }
 .poster a:hover {
-  opacity: 100%;
+opacity : 100%;
 }
-.poster-views,
-.poster-likes {
-  font-size: 3em;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.poster-views, .poster-likes {
+font-size : 3em;
+margin-top : 20px;
+margin-bottom : 20px;
 }
-
 .poster-views {
-  color: lightyellow;
+color : lightyellow;
 }
-
 .poster-likes {
-  color: red;
+color : red;
 }
-/*-- Poster --*/
-/* --------------- Movies--------------- */
-
-/* --------------- Contact--------------- */
-
 .contact_box {
-  width: 50%;
-  border: 2px solid rgba(0, 0, 0, 0.4);
-  box-sizing: border-box;
-  border-radius: 10%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+width : 50%;
+border : rgb(0, 0, 0, 0.4) solid 2px;
+box-sizing : border-box;
+border-radius : 10%;
+display : block;
+margin-left : auto;
+margin-right : auto;
 }
-
 .contact_box form {
-  padding: 5% 12% 2% 12%;
+padding : 5% 12% 2% 12%;
 }
-
 .contact_box label {
-  font-weight: bold;
+font-weight : bold;
 }
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+input[type="text"], input[type="email"], textarea {
+width : 100%;
+padding : 10px;
+border : #ccc solid 1px;
+border-radius : 4px;
+box-sizing : border-box;
+margin-top : 6px;
+margin-bottom : 16px;
+resize : vertical;
 }
 textarea {
-  height: 200px;
+height : 200px;
 }
-
 form a[type="button"] {
-  background-color: #f35050;
-  text-decoration: none;
-  color: white;
-  padding: 15px 40px;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
+background-color : #f35050;
+text-decoration : none;
+color : white;
+padding : 15px 40px;
+border : none;
+border-radius : 12px;
+cursor : pointer;
 }
 form a[type="button"]:hover {
-  color: black;
-  animation-name: color_change;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards;
+color : black;
+animation-name : color_change;
+animation-duration : 1.5s;
+animation-fill-mode : forwards;
 }
 @keyframes color_change {
-  from {
-    background-color: #f35050;
-  }
-  to {
-    background-color: #ff0000;
-  }
+from {
+background-color : #f35050;
+}
+to {
+background-color : #ff0000;
+}
 }
 @media only screen and (max-width: 800px) {
-  /* For tablets: */
-  .contact_box {
-    width: 80%;
-  }
+.contact_box {
+width : 80%;
+}
 }
 @media only screen and (max-width: 500px) {
-  /* For mobile phones: */
-  textarea {
-    height: 120px;
-  }
-
-  .contact_box {
-    width: 100%;
-  }
+textarea {
+height : 120px;
 }
-/* --------------- Contact--------------- */
-/* --------------- footer --------------- */
-
+.contact_box {
+width : 100%;
+}
+}
 .footer {
-  width: 100%;
-  background: black;
-  color: white;
-  padding-top: 30px;
-  margin: 0;
-  float: left;
+width : 100%;
+background : black;
+color : white;
+padding-top : 30px;
+margin : 0;
+float : left;
 }
-
 .social-networks {
-  text-align: center;
-  margin-left: -10px;
+text-align : center;
+margin-left : -10px;
 }
-
 .social-networks li {
-  display: inline-block;
-  padding: 1% 2% 0 3%;
+display : inline-block;
+padding : 1% 2% 0 3%;
 }
-
 .social-networks a {
-  font-size: 2.5em;
-  color: lightgray;
-  text-decoration: none;
+font-size : 2.5em;
+color : lightgray;
+text-decoration : none;
 }
-
 .social-networks a:hover {
-  color: white;
+color : white;
 }
-
 @media only screen and (max-width: 500px) {
-  /* For mobile phones: */
-  .social-networks {
-    margin-left: -20px;
-  }
+.social-networks {
+margin-left : -20px;
 }
-/* --------------- footer --------------- */
+} 
