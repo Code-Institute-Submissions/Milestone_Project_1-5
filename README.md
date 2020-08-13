@@ -16,7 +16,7 @@ A live demo version can be found
 Highlight the recommended movie to catch the user's attention(Carousel slide). To make the website simple for the user to choose the movie he wants easily. To give a brief information and the movie's rating provided by other users in FreeTube and the movie's trailer(click on the desire's movie).
 
 ## User stories
-By phone-research of existing customers, we tried to find out what they need and what they think the companies strongest points are. We wanted to know what the costumers finds most important. The following points came up:
+By research of existing customers, we try to provide what they find most important. The following points came up:
 
 * As a user, I want to know about is this website. (about page)
 * As a user, I want to view movies. (movies page)
@@ -26,11 +26,11 @@ By phone-research of existing customers, we tried to find out what they need and
 
 ## Features
 
-*  Allow user to view movies freely
-*  User can see recommended movies of the week
-*  User can watch movie's trailer by clicking on the movie
-*  User can make request for new movies by sending messages in contact
-*  User can also report bug or give his opinion by sending messages in contact
+* Allow user to view movies freely
+* User can see recommended movies of the week
+* User can watch movie's trailer by clicking on the movie
+* User can make request for new movies by sending messages in contact
+* User can also report bug or give his opinion by sending messages in contact
 
 
 ## Browser support
