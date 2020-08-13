@@ -2,10 +2,10 @@
 
 # FreeTube
 
-Enjoy watching movies, so this website is made just for you.
+Enjoy movies, so this website is made just for you to know the top movies.
 
 ## What is FreeTube?
-Freetube has an extensive library of feature films, documentaries, TV shows, anime, and more. Watch as much as you want, anytime you want for free.
+Freetube has an extensive library of feature films, documentaries, TV shows, anime, and more. You can view informations anytime you want for free.
 
 ## Demo
 A live demo version can be found
@@ -13,21 +13,20 @@ A live demo version can be found
 ![Design](https://github.com/LongVN99/Milestone_Project_1/blob/a496c9ed26880e43e248fb220c388ca592c679a6/Mockups/Mockups.png)
 
 ## UX
-Highlight the recommended movie to catch the user's attention. To make the website simple for the user to choose the movie he wants easily. To give a brief information and the movie's rating provided by other users in FreeTube.
+Highlight the recommended movie to catch the user's attention(Carousel slide). To make the website simple for the user to choose the movie he wants easily. To give a brief information and the movie's rating provided by other users in FreeTube and the movie's trailer(click on the desire's movie).
 
 ## User stories
 By phone-research of existing customers, we tried to find out what they need and what they think the companies strongest points are. We wanted to know what the costumers finds most important. The following points came up:
 
 * As a user, I want to know about is this website. (about page)
-* As a user, I want to know how much it will cost. ( about page)
-* As a user, I want to know products options. (movies page)
+* As a user, I want to view movies. (movies page)
 * As a user, I want to know how I can contact. (contact page and footer)
 * As a user, I want to report bugs. (contact page)
 * As a user, I'm mostly busy and I want to find quick and preferable on my phone. ( responsive)
 
 ## Features
 
-*  Allow user to watch movies freely
+*  Allow user to view movies freely
 *  User can see recommended movies of the week
 *  User can watch movie's trailer by clicking on the movie
 *  User can make request for new movies by sending messages in contact
@@ -68,7 +67,7 @@ The site is structured to get the right information as quickly as possible. A na
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting the link into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+To run locally, you  can clone this repository directly into the editor of your choice by pasting the link into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ### `How to open this project`
 1. Copy this link " https://longvn99.github.io/Milestone_Project_1/ "
@@ -91,6 +90,8 @@ All photos were taken from google.
 
 ### Acknowledgements
 As a user, I likes watching movies for entertainment, but it's really expensive to buy movies all the time. However, to protect intellectual property is really important in order to encourage arts creativity. It would be great if we can have a website where we can watch movies freely, so people with low salary can also enjoy the movies and at the same time, to encourage arts creativity. So to achieve these two goals, the investors and the businessman use their funds for advertisement to buy movie rights.
+
+So, for the first step, I want to create a web where user can see the new movies and can view them.
 
 For the web design, the navbarToggler was found on bootstrap (by mentor advice) and the carousel slide was found on bootstrap (by mentor advice).
 
