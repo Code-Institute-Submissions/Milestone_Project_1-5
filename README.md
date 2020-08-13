@@ -43,6 +43,8 @@ By phone-research of existing customers, we tried to find out what they need and
 * Safari *(latest 2)*
 
 ## Testing
+* [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - This document validates as CSS level 3 + SVG ! 
+
 All links will function, clicking on the movies will open a new page which play the trailer of the chosen movie on YouTube.com. The "Send" button will return to the home section. Custom CCS code is written for every button comfort design.
 
 This site was tested across multiple screen sizes on Chrome, Safari and Internet Explore To ensure compatibility and responsiveness it was also tested on an android based mobile device. When the webpage is visited on larger screens the carousel slide will take the whole screen This will have smaller height on a mobile such as Iphone 6/7/8 Plus. A navigation bar is shown all the time and will transform to an option bar on smaller phone screens.
