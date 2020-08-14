@@ -124,7 +124,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 ### Content
-All content on this site were written by me. All informations about movies is taken from [Wikipedia](https://www.wikipedia.org/). Trailers are taken from [Youtube](https://www.youtube.com/)
+All content on this site were written by me.
+
+All informations about movies is taken from [Wikipedia](https://www.wikipedia.org/).
+
+Trailers are taken from [Youtube](https://www.youtube.com/)
 
 ### Media
 All photos were taken from google. Web's logo and fav icon is created by me.
