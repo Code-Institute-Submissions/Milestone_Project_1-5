@@ -70,6 +70,10 @@ The goal in the design was to make it as easy as possible to access while strivi
 * CSS - To create a nice style and to stand-out
 * Bootstrap - To improve responsiveness
 * Figma - To create mockup
+* Git - Using Gitpod to edit html and css
+* GitHub - To store the projects code after being pushed from Git
+* Google Fonts- Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+* Font Awesome - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
 ## Structure
 The site is structured to get the right information as quickly as possible. A navigation bar that's always available to quickly scroll between pages. Contact form at the bottom. The proper order of the pages is created to trigger the reader to contact us.
