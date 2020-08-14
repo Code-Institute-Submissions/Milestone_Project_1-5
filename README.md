@@ -36,6 +36,7 @@ Highlight the recommended movie to catch the user's attention(Carousel slide). T
 
 ## Features
 
+* Allow user to open this website on multiple device
 * Allow user to view movies freely
 * User can see recommended movies of the week (Home - carousel slide)
 * User can watch movie's trailer by clicking on the movie
