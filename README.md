@@ -26,7 +26,7 @@ Highlight the recommended movie to catch the user's attention(Carousel slide). T
 
 - ### Design
     - #### Colour Scheme
-        -The two main colours used are Code Insititue red, and white.
+        -   The two main colours used are Code Insititue red, and white.
     -   #### Typography
         -   MedievalSharp font is used for movies title in carousel slide.
         -   "Segoe UI", "Roboto" and "Helvetica Neue" are used for other text with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
