@@ -106,12 +106,10 @@ To run locally, you  can clone this repository directly into the editor of your 
 1. Open Git Bash
 1. Change the current working directory to the location where you want the cloned directory to be made.
 1. Type `git clone`, and then paste the URL you copied in Step 3.
-
+1. Press Enter. Your local clone will be created.
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
-
-1. Press Enter. Your local clone will be created.
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
