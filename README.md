@@ -24,13 +24,14 @@ Highlight the recommended movie to catch the user's attention(Carousel slide). T
     * As a user, I want to report bugs. (contact page)
     * As a user, I'm mostly busy and I want to find quick and preferable on my phone. ( responsive)
 
-## Design
-### Colour Scheme
-The two main colours used are Code Insititue red, and white.
+- ### Design
+    - #### Colour Scheme
+        -The two main colours used are Code Insititue red, and white.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   MedievalSharp font is used for movies title in carousel slide.
+        -   "Segoe UI", "Roboto" and "Helvetica Neue" are used for other text with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The carousel slide is designed to be striking and catch the user's attention.
 
 
 ## Features
