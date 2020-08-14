@@ -15,14 +15,23 @@ A live demo version can be found
 ## UX
 Highlight the recommended movie to catch the user's attention(Carousel slide). To make the website simple for the user to choose the movie he wants easily. To give a brief information and the movie's rating provided by other users in FreeTube and the movie's trailer(click on the desire's movie).
 
-## User stories
-By research of existing customers, we try to provide what they find most important. The following points came up:
+- ### User stories
+- By research of existing customers, we try to provide what they find most important. The following points came up:
 
 * As a user, I want to know about is this website. (about page)
 * As a user, I want to view movies. (movies page)
 * As a user, I want to know how I can contact. (contact page and footer)
 * As a user, I want to report bugs. (contact page)
 * As a user, I'm mostly busy and I want to find quick and preferable on my phone. ( responsive)
+
+## Design
+### Colour Scheme
+The two main colours used are Code Insititue red, and white.
+    -   #### Typography
+        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+    -   #### Imagery
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+
 
 ## Features
 
