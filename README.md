@@ -2,7 +2,7 @@
 
 # FreeTube
 
-Enjoy movies, so this website is made just for you to know the top movies.
+Enjoy movies, so this website is made just for you to know the best movies.
 
 ## What is FreeTube?
 Freetube has an extensive library of feature films, documentaries, TV shows, anime, and more. You can view informations anytime you want for free.
@@ -27,7 +27,7 @@ By research of existing customers, we try to provide what they find most importa
 ## Features
 
 * Allow user to view movies freely
-* User can see recommended movies of the week
+* User can see recommended movies of the week (Home - carousel slide)
 * User can watch movie's trailer by clicking on the movie
 * User can make request for new movies by sending messages in contact
 * User can also report bug or give his opinion by sending messages in contact
@@ -52,7 +52,7 @@ This site was tested across multiple screen sizes on Firefox, Chrome, Safari and
 Each time user hover a movie, the likes and views will show up with custom CSS to get user's attention about the movie's rating.
 
 ## Strategy
-The goal in the design was to make it as easy as possible to access, short and an informative B2B based site, while striving for a minimalist and user-friendly design as possible.
+The goal in the design was to make it as easy as possible to access while striving for a minimalist and user-friendly design as possible.
 
 ## Technologies
 * HTML - To create a basic site
@@ -85,10 +85,10 @@ To run locally, you  can clone this repository directly into the editor of your 
 
 ## Credits
 ### Content
-All content on this site were written by me. All informations about movies is taken from [Wikipedia](https://www.wikipedia.org/).
+All content on this site were written by me. All informations about movies is taken from [Wikipedia](https://www.wikipedia.org/). Trailers are taken from [Youtube](https://www.youtube.com/)
 
 ### Media
-All photos were taken from google.
+All photos were taken from google. Web's logo and fav icon is created by me.
 
 ### Acknowledgements
 As a user, I likes watching movies for entertainment, but it's really expensive to buy movies all the time. However, to protect intellectual property is really important in order to encourage arts creativity. It would be great if we can have a website where we can watch movies freely, so people with low salary can also enjoy the movies and at the same time, to encourage arts creativity. So to achieve these two goals, the investors and the businessman use their funds for advertisement to buy movie rights.
